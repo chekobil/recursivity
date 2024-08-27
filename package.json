@@ -1,0 +1,12 @@
+{
+  "name": "recursive-test",
+  "version": "0.0.1",
+  "description": "testing recursivity",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "felipe.arg@gmail.com",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
