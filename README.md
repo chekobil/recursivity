@@ -1,7 +1,7 @@
 ## Clone repo
 ```
-    git clone URL
-    cd folder
+    git clone https://github.com/chekobil/recursivity.git &&
+    cd recursivity &&
     npm install
 ```
 
