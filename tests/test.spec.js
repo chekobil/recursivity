@@ -26,4 +26,9 @@ describe("Testing recursive function", () => {
         const expected = "/category1/category3/category4"
         expect(result).toBe(expected)
     })
+    test("Non existant category returns undefined", () => {
+        const result = getCategoryPath(categories, 'wrong-category')
+        const expected = undefined
+        expect(result).toBe(expected)
+    })
 })
